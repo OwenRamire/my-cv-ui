@@ -1,10 +1,13 @@
 import React from 'react';
+import Dashboard from '../dashboard/Dashboard.jsx';
 import '../../styles/css/Home/Home.css';
 
 const GlassCard = () => {
   return (
     <main>
-      <section className="glass"></section>
+      <section className="glass">
+        <Dashboard />
+      </section>
     </main>
   );
 }
