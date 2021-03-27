@@ -1,5 +1,6 @@
 import React from 'react';
 import Dashboard from '../dashboard/Dashboard.jsx';
+import Sections from '../sections/Sections.jsx';
 import '../../styles/css/Home/Home.css';
 
 const GlassCard = () => {
@@ -7,6 +8,7 @@ const GlassCard = () => {
     <main>
       <section className="glass">
         <Dashboard />
+        <Sections />
       </section>
     </main>
   );
