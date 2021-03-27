@@ -1,0 +1,50 @@
+div.sections-container {
+  flex: 3;
+}
+
+.title-sect-container {
+  height: 3rem;
+  margin: 2rem 1rem;
+  padding: 0rem 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.title-sect-container h1 {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+.icon-title {
+  font-size: 1.5rem;
+  color: #6D8DB0;
+}
+
+div.about-user-container-introducing {
+  margin: 2rem 1rem;
+  padding: 1.5rem 1rem;
+  background: linear-gradient(to left top, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.5));
+  border-radius: 2rem;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.2);
+}
+
+div.about-user-container {
+  background: linear-gradient(to left top, white, rgba(255, 255, 255, 0.8));
+  margin: 2rem 1rem;
+  padding: 1.5rem 1rem;
+  border-radius: 2rem;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.2);
+}
+
+.title-where, .title-when {
+  margin: 0.2rem;
+}
+
+.title-when {
+  font-style: italic;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=Sections.css.map */
