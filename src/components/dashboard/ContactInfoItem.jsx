@@ -5,11 +5,7 @@ import {
   faEnvelope,
   faTimes,
 } from '@fortawesome/free-solid-svg-icons';
-import {
-  faLinkedin,
-  faInstagram,
-  faGithub
-} from '@fortawesome/free-brands-svg-icons'
+import {faLinkedin, faInstagram} from '@fortawesome/free-brands-svg-icons'
 
 const ContactInfoItem = (props) => {
 
@@ -32,27 +28,21 @@ const ContactInfoItem = (props) => {
           <a href="https://www.linkedin.com/in/owen-omar-ramirez-lopez-895a861a3/" className="link-contact-icon">
             <FontAwesomeIcon icon={faLinkedin} className="icon-style" />
           </a>
-        );
-      case 'faGitHub':
-      return (
-        <a href="https://github.com/OwenRamire" className="link-contact-icon">
-          <FontAwesomeIcon icon={faGithub} className="icon-style" />
-        </a>
-      );
+        ); 
       case 'faInstagram': 
         return (
           <a href="https://www.instagram.com/owenramirez99/" className="link-contact-icon">
             <FontAwesomeIcon icon={faInstagram} className="icon-style" />
           </a>
-        );
+        ); 
       default:
         return (
           <a href="/" className="link-contact-icon">
             <FontAwesomeIcon icon={faTimes} className="icon-style" />
           </a>
-        );
+        ); 
     }
-  }
+  } 
 
   return (
     <div className="contact-info-item-container">
