@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../sass/index.sass","../sass/FontsAndColors.sass"],"names":[],"mappings":"AAEA;EACE;EACA;EACA,aCJS;;;ADMX;EACE,OCEc;EDDd;EACA;EACA;;;AAEF;EACE,OCJc;EDKd;EACA;EACA;;;AAEF;EACE,OCTc;EDUd;EACA","file":"index.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/index.sass","../sass/FontsAndColors.sass"],"names":[],"mappings":"AAEA;EACE;EACA;EACA,aCLS;;;ADOX;EACE;EACA;EACA;EACA;;;AAEF;EACE;EACA;EACA;EACA;;;AAEF;EACE;EACA;EACA","file":"index.css"}
