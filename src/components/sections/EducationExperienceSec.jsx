@@ -1,18 +1,15 @@
 import React from 'react';
 import '../../styles/css/sections/Sections.css';
 
-const EducationExperienceSec = () => {
+const EducationExperienceSec = (props) => {
   return (
     <div className="about-user-container">
-      <h1 className="title-where">Lorem ipsum</h1>
+      <h1 className="title-where">{props.institutionPosition}</h1>
       <h4 className="title-when">
-        Colima, col | Jan 2021 - Dec 2021
+        {props.date}
       </h4>
       <p className="description-educ-exp">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-        Praesent blandit nibh at felis. Sed nec diam in dolor vestibulum
-        aliquet. Duis ullamcorper, nisi non facilisis molestie, lorem sem
-        aliquam nulla, id lacinia velit mi vestibulum enim.
+        {props.description}
       </p>
     </div>
   );
